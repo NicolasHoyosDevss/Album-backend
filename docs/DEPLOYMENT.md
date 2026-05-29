@@ -9,7 +9,7 @@ This backend is ready for Vercel as a Node.js serverless app and for container h
 - [ ] `DATABASE_URL` points to a reachable PostgreSQL database.
 - [ ] `DB_SSL=true` when the provider requires TLS.
 - [ ] `SUPABASE_URL` and `SUPABASE_ANON_KEY` match the frontend Supabase project.
-- [ ] `CORS_ORIGINS` includes the production frontend origin.
+- [ ] `CORS_ORIGINS` includes the production frontend origin: `https://album-front-two.vercel.app`.
 - [ ] `database/init.sql` has been executed once in the target database.
 - [ ] `GET /api/health` returns `{ "status": "ok" }` after deploy.
 

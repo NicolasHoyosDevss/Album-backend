@@ -199,7 +199,7 @@ Deployment checklist:
 2. Set the environment variables from `.env.example`.
 3. Use a hosted PostgreSQL database.
 4. Run `database/init.sql` once against that database.
-5. Add the deployed frontend URL to `CORS_ORIGINS`.
+5. Add the deployed frontend URL to `CORS_ORIGINS`: `https://album-front-two.vercel.app`.
 6. Verify `GET /api/health` after deployment.
 
 Detailed checklist: [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
